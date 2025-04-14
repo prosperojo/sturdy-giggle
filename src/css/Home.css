@@ -1,0 +1,35 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../../public/neom-eOWabmCNEdg-unsplash.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    color: white;
+  }
+
+  .subheader-text {
+    max-width: 600px;
+    text-align: center; 
+    word-wrap: break-word;
+    font-size: large;
+  }
+  
+  

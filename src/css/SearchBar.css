@@ -1,0 +1,9 @@
+.d-flex {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
